@@ -11,7 +11,7 @@ Most of the things you'd want to edit in WiFiPing.py are set as variables near t
 
 Open */etc/rc.local* on your Pi, and add the following on the line before *exit 0*
 
-*python3 /home/pi/WiFiPing.py &
+*python3 /home/pi/WiFiPing.py &*
 
 (Adjust the path depending on where you put the file!)
 
